@@ -10,7 +10,7 @@ function createWindow()
         height: 800,
         icon,
         autoHideMenuBar: true,
-        title: "Kindle Cloud Reader",
+        title: "YouTube",
         webPreferences: {
             sandbox: true,
             contextIsolation: true,
@@ -22,7 +22,7 @@ function createWindow()
         return { action: "deny" };
     });
 
-    win.loadURL("https://read.amazon.com");
+    win.loadURL("https://youtube.com");
 }
 
 app.whenReady().then(createWindow);
