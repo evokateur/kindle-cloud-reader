@@ -1,6 +1,6 @@
-# YouTube (Unofficial Desktop Wrapper)
+# YouTube PWA Wrapper
 
-This is an **unofficial desktop wrapper** for [YouTube](https://www.youtube.com),
+This is an PWA wrapper for [YouTube](https://www.youtube.com),
 built using [Electron](https://www.electronjs.org/). It provides a native
 macOS-style desktop experience for watching YouTube in a standalone window.
 
@@ -47,17 +47,3 @@ npm run package
 
 Output will appear in the `dist/` directory.
 See `package.json` → `build` for config details.
-
----
-
-## License
-
-This project is licensed under the [MIT License](https://mit-license.org/).
-This license applies only to the code in this repository, not to any content
-or service provided by Amazon.
-
----
-
-## Credits
-
-- built with [Electron](https://www.electronjs.org/)
